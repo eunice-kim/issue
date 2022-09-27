@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Where Is Your Beef From?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="animal-background beef-background">
+      <div id="nav">
+        <img id="paper" src="images/paper.png">
+        <h1><a href="index.html">Groceries</a></h1>
+        <div class="list">
+          <span class="list-item striked">- beef</span>
+          <a href="eggs.html" class="list-item">- eggs</a>
+          <a href="fish.html" class="list-item">- fish</a>
+        </div>
+      </div>
+      <div class="top-bar">
+        <img class="white" id="nav-toggler" src="images/cart-icon-white.png" onmouseover="showMessage()" onmouseout="hideMessage()" onclick="toggleNav()">
+        <span class="white-text" id="supermarket-message">Let's Go To The Supermarket!</span>
+      </div>
+      <img id="arrow" class="show" src="images/arrow.png" onclick="nextSlide()">
+      <div class="slide">
+        <div id="slide-one">Where Is Your Beef From?</div>
+      </div>
+      <div class="slide">
+        <div id="slide-two">Roughly 70% of cows are factory farmed.<br><br><span class="details">They are raised for the purpose of slaughter, undergoing painful procedures such as dehorning, branding, castration, and artificial insemination.</span></div>
+      </div>
+      <div class="slide">
+        <div id="slide-three">Learn Before You Eat.<br><br><span class="details"><a href="https://animalequality.org/issues/meat/" target="_blank">OVERVIEW</a><a href="https://carnism.org/book/why-we-love-dogs-eat-pigs-and-wear-cows/" target="_blank">READ</a><a href="https://www.cowspiracy.com/" target="_blank">WATCH</a></span></div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>

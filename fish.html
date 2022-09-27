@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Where Is Your Fish From?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="animal-background fish-background">
+      <div id="nav">
+        <img id="paper" src="images/paper.png">
+        <h1><a href="index.html">Groceries</a></h1>
+        <div class="list">
+          <a href="beef.html" class="list-item">- beef</span>
+          <a href="eggs.html" class="list-item">- eggs</a>
+          <span class="list-item striked">- fish</a>
+        </div>
+      </div>
+      <div class="top-bar">
+        <img class="white" id="nav-toggler" src="images/cart-icon-white.png" onmouseover="showMessage()" onmouseout="hideMessage()" onclick="toggleNav()">
+        <span class="white-text" id="supermarket-message">Let's Go To The Supermarket!</span>
+      </div>
+      <img id="arrow" class="show" src="images/arrow.png" onclick="nextSlide()">
+      <div class="slide">
+        <div id="slide-one">Where Is Your Fish From?</div>
+      </div>
+      <div class="slide">
+        <div id="slide-two">Fish farming is the world’s fastest-growing food production sector.<br><br><span class="details">Farmed fish are crowded in filthy ponds before being cruelly slaughtered or left to die of suffocation as they fight for their lives.</span></div>
+      </div>
+      <div class="slide">
+        <div id="slide-three">Learn Before You Eat.<br><br><span class="details"><a href="https://animalequality.org/issues/fish/" target="_blank">OVERVIEW</a><a href="https://www.paulgreenberg.org/books/four-fish/" target="_blank">READ</a><a href="https://www.seaspiracy.org/" target="_blank">WATCH</a></span></div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>

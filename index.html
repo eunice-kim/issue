@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What's On Your Grocery List?</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="table">
+      <div class="show" id="nav">
+        <img id="paper" src="images/paper.png">
+        <h1>Groceries</h1>
+        <div class="list">
+          <a href="beef.html" class="list-item" onmouseover="showBeef()" onmouseout="hideBeef()">- beef</a>
+          <a href="eggs.html" class="list-item" onmouseover="showEgg()" onmouseout="hideEgg()">- eggs</a>
+          <a href="fish.html" class="list-item" onmouseover="showSushi()" onmouseout="hideSushi()">- fish</a>
+        </div>
+      </div>
+      <div class="top-bar">
+        <img id="nav-toggler" src="images/cart-icon.png" onmouseover="showMessage()" onmouseout="hideMessage()" onclick="toggleNav()">
+        <span id="supermarket-message">Let's Go To The Supermarket!</span>
+      </div>
+      <img id="pen" src="images/pen.png">
+      <div class="background">
+        <div id="sticky-note">
+          <span id="todo">To Do</span><br>Buy<br>Groceries!
+        </div>
+        <img id="coffee" src="images/coffee.png">
+      </div>
+      <div class="background">
+        <img class="food" id="beef-image" src="images/beef.png">
+      </div>
+      <div class="background">
+        <img class="food" id="egg-image" src="images/egg.png">
+      </div>
+      <div class="background">
+        <img class="food" id="sushi-image" src="images/sushi.png">
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
